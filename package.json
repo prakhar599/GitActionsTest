@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "echo 'No src to lint yet' && exit 0",
-    "test": "jest",
-    "build": "echo 'Build step here'"    
+    "lint": "eslint src/",
+    "test": "jest --passWithNoTests",
+    "build": "echo 'Build step here'"  
   },
   "keywords": [],
   "author": "",
